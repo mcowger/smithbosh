@@ -4,6 +4,13 @@ Using the toolsmiths JSON data file, make it easier to access from your local ho
 
 # Usage
 
+Prereqs: `jq` and `om`, both installable with homebrew:
+
+```
+brew tap starkandwayne/cf && brew install om jq
+```
+
+
 `bash smithbosh.sh --json="<full path to JSON file"`
 
 it will output export commands, useful if you wrap it in `eval`:
